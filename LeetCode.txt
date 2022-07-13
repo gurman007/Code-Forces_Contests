@@ -1,0 +1,36 @@
+24. Swap Nodes in Pairs  ODS135056602
+402. Remove K Digits...      (Recursive to Monotonic Stack)		 	https://leetcode.com/problems/remove-k-digits/discuss/1395112/JAVA-Bruteforce-greater-Memoization-greater-Greedy
+					      (2^n    to     O(n) {greedy} ) 
+     Similar prob. to above. is 739. Daily Temperatures ( O(n^2) --- O(N) Monotonic Stack )
+
+
+
+646. Maximum Length of Pair Chain     ( Recursive simlar to Weighted Job Schdeuling ) pehlan sort... fer decisions lenee a..
+								( Greedy Apraoch ) Proof of This Greedy very beautifully explained by-> https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/225801/Proof-of-the-greedy-solution
+
+	 One Interserting thing about this que. the Greedy we used in it is not useful in {Weighted} Job Scheduling bcz.--
+	 In this greedy our attempt is to maximize the length ..(as each pair as a unit(1) value ) so no problem at all.
+	 Whereas in Weighted Job Scheduling our attempt is to Maximize profit and it's not necessary that the maximum no.
+	    of Interviews which can be scheduled without overlapping can give max. profit{it's obvious} so that'why in 
+		 that ques. we have to use Recusiion to figure out all possible cases....
+
+
+1288.Remove Covered Intervals   .....V good question...by sorting on the basis of end time miss this test case...-->
+									{34,39} {29,66} {53,69} {15,91} {40,93} No. of covered Intervals = 3. so O/t = 5-3=2
+
+		   Best Explanation == https://leetcode.com/problems/remove-covered-intervals/discuss/878981/C%2B%2B-Sort-with-Brief-Explanation-O(nlogn)-Runtime-O(1)-Memory
+						
+						So if tail > next_tail then sort on the bais of {{start}}....   
+						
+491  Increasing Subseq.. = similart to combination Sum2...
+				    Great Learning-->  we can use set or std::unquie to remove duplicates subsets so no need to worry about duplicates elements present..
+
+171 Excell Sheet(  Easy ) -->  Good logic 
+
+
+https://www.youtube.com/watch?v=L1ung0wil9Y -- assembly language MIT
+
+
+// For 0/1 Knapsack Space Optimization technique...--> Nice, Good explanation---> https://leetcode.com/discuss/study-guide/1200320/Thief-with-a-knapsack-a-series-of-crimes.
+
+// C++ template for ALL Combination Problem Set(Different Problems based on Backtracking..) ---> https://leetcode.com/problems/combination-sum-iv/discuss/85120/C%2B%2B-template-for-ALL-Combination-Problem-Set
